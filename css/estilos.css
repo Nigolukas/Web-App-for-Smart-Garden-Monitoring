@@ -1,0 +1,152 @@
+body {
+  font-family: "Bellota Text", Arial, sans-serif;
+  text-align: center;
+  background-color: #BCE547;
+}
+
+.recomendaciones{
+  font-family: "Bellota Text", Arial, sans-serif;
+  text-align: center;
+  background-color: #00CABE;
+  color: white;
+}
+
+
+h1 {
+  font-size: 24px;
+  
+}
+
+.image-container {
+  margin-top: 0px;
+}
+
+img {
+  max-width: 400px;
+  height: auto;
+  margin-top: 0%;
+}
+
+.button {
+  width: 120px;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #FF7051;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 50px; /* Ajusta el valor según el grado de redondez deseado */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-azul {
+  width: 120px;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #00CABE;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 50px; /* Ajusta el valor según el grado de redondez deseado */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-transparente {
+  width: 300px;
+  display: inline-block;
+  padding: 2px;
+  background-color: white;
+  color:black;
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 10px; /* Ajusta el valor según el grado de redondez deseado */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.popup {
+  background-color: #fff;
+  color:black;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.analisis{
+  background-color:white;
+  color:black;
+  
+}
+
+.izquierda{
+  text-align: left;
+}
+
+
+
+.morado{
+  color:blueviolet;
+  
+}
+
+
+header{
+  margin-bottom: 10px;
+}
+
+h2{
+  margin-top:20px;
+}
+
+.progress-bar {
+  width: 300px;
+  height: 20px;
+  background-color: #ccc;
+  margin: 50px auto;
+}
+
+.progress {
+  height: 100%;
+  width: 0;
+  background-color: #4caf50;
+}
+
+.texto-azul{
+  color:#00CABE;
+  font-weight: bold;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+}

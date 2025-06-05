@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Análisis de la planta</title>
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-database-compat.js"></script>
+  <link href="./css/estilos.css" rel="stylesheet"/>
+</head>
+
+<body class="recomendaciones">
+    <header>
+        <h1>Analizando...</h1>
+  
+        <div class="image-container">
+          <img src="./images/feli.png" width="100" alt="Imagen de la planta">
+        </div>   
+    </header>
+    <main>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+
+        <div id="overlay">
+            <div class="popup">
+              <span class="close">&times;</span>
+              <h1><p><span id="humedad_estado"></span></p></h1>
+              <a href="recomendaciones.html" class="button"><p>recomendaciones</p></a>
+            </div>
+        </div>
+        <div class="image-container">
+          <img src="./images/logo esmeraldo.png" width="100" alt="Imagen de la planta">
+        </div>   
+        
+          <script src="script_analizando.js"></script>
+    </main>
+  
+</body>
+</html>
